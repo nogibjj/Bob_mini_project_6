@@ -6,7 +6,7 @@ import csv
 import os
 
 
-def load(dataset="../data/rainfall.csv"):
+def load(dataset="rainfall.csv"):
     # print the full working directory
     # print(os.getcwd())
     payload = csv.reader(open(dataset, newline=""), delimiter=",")
